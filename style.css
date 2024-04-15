@@ -1,0 +1,158 @@
+/* Colores neutros */
+body {
+    background: url('https://pa1.aminoapps.com/6498/215e74314441b0611a4b83ca5ec9b2745db3963c_00.gif');
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #010000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #c3c1c1;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #007bff; /* Azul */
+}
+
+/* Imagen de fondo a pantalla completa */
+.fondo-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Para que esté detrás del contenido */
+}
+
+.fondo-gif img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantener la proporción de la imagen */
+}
+
+/* Texto centrado */
+main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+/* Adaptación para dispositivos móviles */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+.carousel {
+    position: relative;
+    width: 80%; /* Ajustar el ancho del carrusel */
+    margin: 0 auto; /* Centrar el carrusel */
+}
+
+.contenedor-imagenes {
+    display: flex;
+    overflow-x: auto; /* Permitir el scroll horizontal */
+    scroll-snap-type: x; /* Ajustar el scroll por elementos */
+    scroll-snap-destination: mandatory; /* Ajustar el scroll por elementos */
+}
+
+.contenedor-imagenes img {
+    flex-shrink: 0; /* Evitar que las imágenes se encojan */
+    width: 200px; /* Ajustar el ancho de las imágenes */
+    height: 200px; /* Ajustar la altura de las imágenes */
+    object-fit: cover; /* Mantener la proporción de la imagen */
+    margin: 10px; /* Espacio entre imágenes */
+}
+
+.flechas {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flechas button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.flechas button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none; /* Elimina las viñetas por defecto */
+  }
+ol {
+    list-style-type: none; /* Elimina las viñetas por defecto */
+  }
+
+il {
+    list-style-type: none; /* Elimina las viñetas por defecto */
+  }
+
+footer {
+    background-color: #010000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(0, 145, 255); /* Establece el color de fondo azul para todos los elementos <h2> */
+    color: #fff;
+  }
+
